@@ -170,35 +170,35 @@
 
 //Soal Live Coding
 //1
-namespace SistemParkir
-{
-    class Motor
-    {
-        public string PlatNomor;
-        public string Warna;
+//namespace SistemParkir
+//{
+//    class Motor
+//    {
+//        public string PlatNomor;
+//        public string Warna;
 
-        public Motor(string PlatNomor, string Warna)
-        {
-            this.PlatNomor = PlatNomor;
-            this.Warna = Warna;
-        }
+//        public Motor(string PlatNomor, string Warna)
+//        {
+//            this.PlatNomor = PlatNomor;
+//            this.Warna = Warna;
+//        }
 
-        public void CetakInfo()
-        {
-            Console.WriteLine($"Motor dengan plat {PlatNomor} berwarna {Warna} telah masuk parkiran.");
-        }
-    }
+//        public void CetakInfo()
+//        {
+//            Console.WriteLine($"Motor dengan plat {PlatNomor} berwarna {Warna} telah masuk parkiran.");
+//        }
+//    }
 
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            Motor motor1 = new Motor("B 1234 ABC", "Hitam");
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            Motor motor1 = new Motor("B 1234 ABC", "Hitam");
 
-            motor1.CetakInfo();
-        }
-    }
-}
+//            motor1.CetakInfo();
+//        }
+//    }
+//}
 
 //2
 //namespace Bank
