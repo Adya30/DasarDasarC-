@@ -64,6 +64,8 @@ namespace DasarDasarC_.Praktikum3
     //}
 }
 
+//Live Coding
+
 //SOAL 1
 public class Produk
 {
@@ -264,19 +266,19 @@ public class Manager : Karyawan
     }
 }
 
-class Program
-{
-    static void Main()
-    {
-        Karyawan k1 = new Karyawan("Budi", "10-01-1990", "Laki-laki");
-        Console.WriteLine("Data Karyawan");
-        k1.TampilkanInfo();
+//class Program
+//{
+//    static void Main()
+//    {
+//        Karyawan k1 = new Karyawan("Budi", "10-01-1990", "Laki-laki");
+//        Console.WriteLine("Data Karyawan");
+//        k1.TampilkanInfo();
 
-        Console.WriteLine();
+//        Console.WriteLine();
 
-        Manager m1 = new Manager("Siti", "05-05-1985", "Perempuan", 2020);
-        Console.WriteLine("Data Manager");
-        m1.TampilkanInfo();
-        m1.TampilkanInfoManager();
-    }
-}
+//        Manager m1 = new Manager("Siti", "05-05-1985", "Perempuan", 2020);
+//        Console.WriteLine("Data Manager");
+//        m1.TampilkanInfo();
+//        m1.TampilkanInfoManager();
+//    }
+//}
