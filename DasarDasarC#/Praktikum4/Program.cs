@@ -177,20 +177,20 @@ namespace DasarDasarC_.Praktikum4
         }*/
     }
 
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            RekeningPrioritas rekVIP = new RekeningPrioritas("Praktikan VIP", 100000);
+    //class Program
+    //{
+    //    static void Main(string[] args)
+    //    {
+    //        RekeningPrioritas rekVIP = new RekeningPrioritas("Praktikan VIP", 100000);
 
-            Console.WriteLine($"Pemilik: {rekVIP.NamaPemilik}");
-            Console.WriteLine($"Saldo Awal: Rp{rekVIP.Saldo}");
-            Console.WriteLine("------------------------");
+    //        Console.WriteLine($"Pemilik: {rekVIP.NamaPemilik}");
+    //        Console.WriteLine($"Saldo Awal: Rp{rekVIP.Saldo}");
+    //        Console.WriteLine("------------------------");
 
-            rekVIP.SetorUang(200000);
+    //        rekVIP.SetorUang(200000);
 
-            Console.WriteLine("------------------------");
-            Console.WriteLine($"Saldo Akhir: Rp{rekVIP.Saldo}");
+    //        Console.WriteLine("------------------------");
+    //        Console.WriteLine($"Saldo Akhir: Rp{rekVIP.Saldo}");
 
             /* CATATAN PENTING:
             Baris di bawah ini akan tetap ERROR (Compile Error):
@@ -208,7 +208,7 @@ namespace DasarDasarC_.Praktikum4
             Alasan: method atau attribut yang bersifat private TIDAK BISA diakses
             atau diubah dari luar class, termasuk dari class turunannya.
             */
-        }
-    }
+    //    }
+    //}
 }
 
