@@ -104,38 +104,38 @@ namespace DasarDasarC_.Praktikum5
 
     }
 
-    class Program
-    {
-        static void Main()
-        {
+    //class Program
+    //{
+    //    static void Main()
+    //    {
 
-            Console.WriteLine("Asosiasi");
-            Dosen dosen1 = new Dosen("Pak Adya");
+    //        Console.WriteLine("Asosiasi");
+    //        Dosen dosen1 = new Dosen("Pak Adya");
 
-            Mahasiswa mhs1 = new Mahasiswa("Budi", dosen1);
-            Mahasiswa mhs2 = new Mahasiswa("Gandhi", null);
+    //        Mahasiswa mhs1 = new Mahasiswa("Budi", dosen1);
+    //        Mahasiswa mhs2 = new Mahasiswa("Gandhi", null);
 
-            mhs1.Info();
-            mhs2.Info();
-            Console.WriteLine("");
-            Console.WriteLine("Ini adalah Agregasi");
-            Pemain pemain1 = new Pemain("Budi");
-            Pemain pemain2 = new Pemain("Iklina");
-            Pemain pemain3 = new Pemain("Dimas");
+    //        mhs1.Info();
+    //        mhs2.Info();
+    //        Console.WriteLine("");
+    //        Console.WriteLine("Ini adalah Agregasi");
+    //        Pemain pemain1 = new Pemain("Budi");
+    //        Pemain pemain2 = new Pemain("Iklina");
+    //        Pemain pemain3 = new Pemain("Dimas");
 
-            List<Pemain> daftarPemain = new List<Pemain>()
-            {
-                pemain1, pemain2, pemain3
-            };
+    //        List<Pemain> daftarPemain = new List<Pemain>()
+    //        {
+    //            pemain1, pemain2, pemain3
+    //        };
 
-            Tim tim1 = new Tim("Barcelona", daftarPemain);
-            tim1.Info();
+    //        Tim tim1 = new Tim("Barcelona", daftarPemain);
+    //        tim1.Info();
 
-            Console.WriteLine("");
-            Console.WriteLine("Kompesisi");
-            Mobil mobil1 = new Mobil("Avanza", "GTX RADEON");
-            mobil1.Info();
+    //        Console.WriteLine("");
+    //        Console.WriteLine("Kompesisi");
+    //        Mobil mobil1 = new Mobil("Avanza", "GTX RADEON");
+    //        mobil1.Info();
             
-        }
-    }
+    //    }
+    //}
 }
